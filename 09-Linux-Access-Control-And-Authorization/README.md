@@ -17,6 +17,8 @@ The project focused on:
 - Applying least privilege principles
 - Strengthening file system security
 
+---
+
 ## Activities Performed
 
 ### Reviewing File and Directory Permissions
@@ -79,6 +81,27 @@ The resulting configuration ensured:
 - Removal of unnecessary write permissions
 - Improved protection of sensitive data
 
+### Directory Access Control
+
+Access permissions were also reviewed and modified for sensitive directories.
+
+Example:
+
+```bash
+chmod g-x drafts
+```
+
+This change removed group execute permissions from the directory and ensured that only authorized users could access its contents.
+
+The activity demonstrated:
+
+- Directory permission management
+- Access restriction techniques
+- Least privilege enforcement
+- Protection of sensitive organizational data
+
+---
+
 ## Access Control Concepts Demonstrated
 
 - Access Control
@@ -90,15 +113,19 @@ The resulting configuration ensured:
 - Security Administration
 - Principle of Need-to-Know
 
+---
+
 ## Security Benefits
 
 The implemented controls helped:
 
 - Reduce unauthorized access risks
 - Restrict unnecessary privileges
-- Protect sensitive files
+- Protect sensitive files and directories
 - Improve security governance
 - Strengthen access management practices
+
+---
 
 ## Skills Demonstrated
 
@@ -111,7 +138,20 @@ The implemented controls helped:
 - File System Security
 - Command-Line Operations
 - Security Verification
+- Directory Access Management
+
+---
 
 ## Outcome
 
-Successfully reviewed and modified Linux file permissions to align with organizational security requirements, improve authorization controls, and reduce the risk of unauthorized access or modification of sensitive resources.
+Successfully reviewed and modified Linux file and directory permissions to align with organizational security requirements.
+
+The project included:
+
+- Permission auditing
+- Removal of excessive privileges
+- Hidden file protection
+- Directory access restriction
+- Authorization control validation
+
+These activities reinforced the principles of access control, authorization management, and least privilege commonly used in cybersecurity environments.
