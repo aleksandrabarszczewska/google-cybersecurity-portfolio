@@ -1,134 +1,154 @@
-# USB Device Threat Assessment and Security Controls
+# Incident Handler’s Journal – Ransomware Incident Analysis
 
 ## Overview
 
-This project focused on evaluating cybersecurity risks associated with unknown USB devices and USB baiting attacks.
+This project involved analyzing a ransomware incident affecting a healthcare organization and documenting findings using an Incident Handler’s Journal.
 
-The assessment analyzed a scenario involving a USB drive discovered in a hospital parking lot and examined how threat actors could exploit sensitive information stored on removable media. The project also evaluated organizational risks and recommended security controls to reduce exposure to USB-based attacks.
+The investigation applied the **5 W's framework (Who, What, When, Where, Why)** to identify the threat actor’s objectives, attack method, business impact, and potential root causes. The project emphasized incident documentation, threat analysis, and ransomware response practices used in cybersecurity operations.
 
 ---
 
-## Scenario
+## Incident Scenario
 
-An unknown USB device was discovered in a hospital parking lot.
+A healthcare organization experienced a ransomware attack that disrupted critical operations and affected access to organizational systems.
 
-The device potentially contained sensitive organizational information and represented a possible USB baiting attack, a common social engineering technique where attackers intentionally leave infected or compromised removable media in locations where employees may find and connect them to organizational systems.
+The investigation focused on understanding:
 
-The assessment focused on identifying potential risks associated with accessing unknown removable media and evaluating how the information could be used by malicious actors.
+- How the attack occurred
+- The initial access vector
+- The attacker’s objectives
+- The operational impact
+- Opportunities for future prevention
 
 ---
 
 ## Objective
 
-The objective was to:
+The objective of this investigation was to:
 
-- Assess security risks associated with unknown USB devices
-- Identify sensitive information stored on removable media
-- Evaluate social engineering and phishing risks
-- Analyze potential attack methods used by threat actors
-- Assess organizational exposure to removable media threats
-- Recommend security controls to reduce risk
+- Analyze a ransomware incident using structured incident response techniques
+- Identify the attack timeline and entry point
+- Assess business and operational impact
+- Evaluate attacker motivations
+- Document findings using an Incident Handler’s Journal
+- Recommend security improvements to reduce future risk
 
 ---
 
-## Activities Performed
+## Investigation Activities
 
-The assessment included:
+### Initial Incident Review
 
-- Examining the contents of an unknown USB device
-- Identifying personally identifiable information (PII) and operational data
-- Evaluating how discovered information could be used in phishing campaigns
-- Assessing risks associated with removable media usage
-- Analyzing USB baiting as a social engineering technique
-- Evaluating organizational security controls
-- Recommending administrative, operational, and technical safeguards
+- Reviewed a phishing-based ransomware scenario
+- Examined available incident details and evidence
+- Identified likely attack progression
+
+### Initial Access Analysis
+
+The investigation determined that the ransomware infection originated from:
+
+- A malicious email attachment
+- User interaction with a phishing message
+- Execution of malicious content leading to system compromise
+
+### Timeline Documentation
+
+- Documented key events associated with the attack
+- Identified stages of compromise
+- Evaluated operational impact on healthcare services
+
+### Threat Actor Analysis
+
+- Assessed likely attacker motivations
+- Evaluated financial objectives commonly associated with ransomware campaigns
+- Analyzed techniques used to gain initial access
+
+### Incident Documentation
+
+- Applied incident response documentation practices
+- Recorded findings using a structured Incident Handler’s Journal
+- Organized information using the 5 W's methodology
 
 ---
 
 ## Key Findings
 
-### Sensitive Information Exposure
+### Human Error Remains a Major Risk
 
-The USB device contained information that could potentially be used to support phishing, impersonation, or social engineering attacks.
+The investigation highlighted that human interaction with phishing emails continues to be one of the most common causes of successful cyberattacks.
 
-### Social Engineering Risk
+### Phishing Can Bypass Technical Controls
 
-Information discovered on the device could allow attackers to craft targeted phishing messages and increase the likelihood of successful credential theft.
+Even organizations with security technologies in place remain vulnerable when employees are not adequately trained to recognize phishing attempts.
 
-### Removable Media Threats
+### Ransomware Significantly Impacts Critical Services
 
-Unknown USB devices present significant risks, including:
+The incident demonstrated how ransomware can quickly disrupt essential business operations, particularly in healthcare environments where system availability directly affects patient care.
 
-- Malware delivery
-- Credential theft
-- Unauthorized data access
-- Network compromise
-- Social engineering attacks
+### Documentation Improves Incident Response
 
-### Organizational Risk
-
-Employees connecting unknown devices to corporate systems could unintentionally introduce malicious software or expose sensitive organizational information.
+Structured incident documentation supports faster investigation, improved coordination, and more effective recovery efforts.
 
 ---
 
-## Recommended Security Controls
+## Lessons Learned
 
-### Administrative Controls
+### Security Awareness Training
 
-- Establish removable media security policies
-- Require employee security awareness training
-- Develop USB device handling procedures
-- Implement incident reporting requirements
+Regular phishing awareness training remains one of the most effective methods for reducing ransomware risk.
 
-### Technical Controls
+### Backup and Recovery Readiness
 
-- Disable unauthorized USB storage devices
-- Deploy endpoint protection solutions
-- Restrict removable media access through policy controls
-- Implement device control and monitoring tools
-- Scan removable media before use
+Organizations should:
 
-### Operational Controls
+- Maintain offline backups
+- Test restoration procedures regularly
+- Validate recovery capabilities
 
-- Conduct periodic security awareness exercises
-- Test employee resistance to social engineering attacks
-- Monitor endpoint activity for unauthorized device usage
-- Maintain incident response procedures for removable media events
+### Early Detection and Response
 
----
+Rapid detection and incident response can significantly reduce operational disruption and limit the spread of ransomware.
 
-## Security Concepts Applied
+### Incident Documentation
 
-This project incorporated:
+Proper documentation helps security teams:
 
-- Risk Assessment
-- Social Engineering Analysis
-- Threat Identification
-- Endpoint Security
-- Security Control Evaluation
-- Security Awareness
-- Incident Prevention
-- Removable Media Security
+- Investigate incidents efficiently
+- Coordinate response efforts
+- Improve future preparedness
+- Capture organizational lessons learned
 
 ---
 
 ## Skills Demonstrated
 
-- Risk Assessment
-- Security Awareness Analysis
-- Social Engineering Assessment
-- Threat Identification
-- Endpoint Security Fundamentals
-- Security Controls Evaluation
-- Security Policy Review
-- Incident Prevention Planning
-- Security Documentation
-- Security Recommendations
+- Incident Response
+- Security Incident Documentation
+- Threat Analysis
+- Phishing Attack Investigation
+- Ransomware Analysis
+- Critical Thinking
+- Cybersecurity Reporting
+- Attack Timeline Analysis
+- Incident Management
+- Root Cause Analysis
+
+---
+
+## Frameworks and Concepts Applied
+
+- Incident Handler’s Journal
+- 5 W's Analysis Framework
+- Incident Response Lifecycle
+- Threat Analysis
+- Phishing Investigation
+- Ransomware Response
+- Security Awareness Concepts
 
 ---
 
 ## Outcome
 
-Successfully evaluated the risks associated with unknown USB devices and demonstrated how removable media can be leveraged in social engineering and malware delivery attacks.
+Successfully analyzed a ransomware incident affecting a healthcare organization, documented attack details using an Incident Handler’s Journal, and identified phishing as the likely initial access vector.
 
-The project reinforced the importance of security awareness training, endpoint protection, removable media controls, and incident response procedures in reducing organizational exposure to USB-based threats.
+The project demonstrated practical incident response documentation techniques and reinforced the importance of user awareness training, backup strategies, early detection capabilities, and structured incident response processes in reducing the impact of ransomware attacks.
