@@ -4,7 +4,7 @@ Portfolio projects completed during the Google Cybersecurity Professional Certif
 
 ## Additional incident response labs
 
-### [25 — Suspicious VPN Login Investigation](./25-EY-Incident-Response-Lab-01-Suspicious-VPN-Login/README.md)
+### [25 — Suspicious VPN Login Investigation](./25-Incident-Response-Lab-01-Suspicious-VPN-Login/README.md)
 
 A fictional, scenario-based incident response case study covering authentication log triage, potential credential attacks, MFA verification, VPN session investigation, proportionate containment, evidence gaps, incident documentation, and preliminary MITRE ATT&CK mapping.
 
